@@ -1,0 +1,104 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html, body {
+      height: 100vh;
+      width: 100vw;
+      background-color: cornflowerblue;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#wrapper #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.8vmax;
+    font-family: gilroy;
+    gap: 40px;
+}
+
+#form label input {
+    height: 3vmax;
+    font-size: 50%;
+    border: 1px solid #fff;
+    font-family: gilroy;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#form select {
+    height: 3vmax;
+    width: fit-content;
+    font-family: gilroy;
+    color: red;
+    border: 1px solid #fff;
+    font-size: 1.5vmax;
+}
+
+select * {
+    color: blue;
+}
+
+#form button {
+    height: 3vmax;
+    padding: 20px;
+    font-family: gilroy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmax;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a button{
+    height: 2vmax;
+    padding: 15px;
+    margin: 20px;
+    font-family: gilroy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vmax;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+}
+
+#result, #result2 {
+    font-family: gilroy;
+    font-size: 3vmax;
+    color: #fff;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#heading {
+    font-family: gilroy;
+    font-size: 4vmax;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
